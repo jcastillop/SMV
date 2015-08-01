@@ -18,6 +18,7 @@ namespace smv2.Models
             using (OracleConnection conn = c.Connect())
             {
                 //List<string> LDptos = new List<string>();
+                //test1
                 string sqlQuery = "select * from gnTCABE";
                 OracleCommand cmd = new OracleCommand(sqlQuery, conn);
                 cmd.CommandType = CommandType.Text;
