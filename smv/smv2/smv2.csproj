@@ -193,6 +193,19 @@
     <Compile Include="Models\CabeceraModels.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\Connection.cs" />
+    <Compile Include="Models\Entity\DCDAtributo.cs" />
+    <Compile Include="Models\Entity\DCDCatalogoDocumento.cs" />
+    <Compile Include="Models\Entity\DCDDocumentoDetalle.cs" />
+    <Compile Include="Models\Entity\DCMAtributo.cs" />
+    <Compile Include="Models\Entity\DCMCatalogo.cs" />
+    <Compile Include="Models\Entity\DCMDocumento.cs" />
+    <Compile Include="Models\Entity\DCMTipoDocumento.cs" />
+    <Compile Include="Models\Entity\GNCabecera.cs" />
+    <Compile Include="Models\Entity\GNDetalle.cs" />
+    <Compile Include="Models\Entity\PGBitacora.cs" />
+    <Compile Include="Models\Entity\PGEnlace.cs" />
+    <Compile Include="Models\Entity\PGPermiso.cs" />
+    <Compile Include="Models\Entity\PGUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -311,7 +324,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\Dao\" />
-    <Folder Include="Models\Entity\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
