@@ -193,6 +193,13 @@
     <Compile Include="Models\CabeceraModels.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\Connection.cs" />
+    <Compile Include="Models\Dao\DCDAtributoDAO.cs" />
+    <Compile Include="Models\Dao\DCDCatalogoDocumento.cs" />
+    <Compile Include="Models\Dao\DCDDocumentoDetalleDAO.cs" />
+    <Compile Include="Models\Dao\DCMAtributoDAO.cs" />
+    <Compile Include="Models\Dao\DCMCatalogoDAO.cs" />
+    <Compile Include="Models\Dao\DCMDocumentoDAO.cs" />
+    <Compile Include="Models\Dao\DCMTipoDocumentoDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -310,7 +317,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\Dao\" />
     <Folder Include="Models\Entity\" />
   </ItemGroup>
   <ItemGroup>
