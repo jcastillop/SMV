@@ -16,9 +16,9 @@ namespace smv2.Controllers
         public ActionResult Index()
         {
 
-            Class1 c = new Class1();
-            DataTable a = c.GetAllDepartments();
-            ViewBag.a = a.Columns["C_DESCRI"].ToString();
+            CabeceraConnection c = new CabeceraConnection();
+             c.GetAllCabecera();
+            //ViewBag.a = a.Columns["C_DESCRI"].ToString();
            
 
             return View();
