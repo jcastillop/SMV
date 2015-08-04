@@ -193,7 +193,12 @@
     <Compile Include="Models\CabeceraModels.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\Connection.cs" />
-
+    <Compile Include="Models\Dao\GNCabeceraDAO.cs" />
+    <Compile Include="Models\Dao\GNDetalleDAO.cs" />
+    <Compile Include="Models\Dao\PGBitacoraDAO.cs" />
+    <Compile Include="Models\Dao\PGEnlaceDAO.cs" />
+    <Compile Include="Models\Dao\PGPermisoDAO.cs" />
+    <Compile Include="Models\Dao\PGUsuarioDAO.cs" />
     <Compile Include="Models\Entity\DCDAtributo.cs" />
     <Compile Include="Models\Entity\DCDCatalogoDocumento.cs" />
     <Compile Include="Models\Entity\DCDDocumentoDetalle.cs" />
@@ -207,7 +212,6 @@
     <Compile Include="Models\Entity\PGEnlace.cs" />
     <Compile Include="Models\Entity\PGPermiso.cs" />
     <Compile Include="Models\Entity\PGUsuario.cs" />
-
     <Compile Include="Models\Dao\DCDAtributoDAO.cs" />
     <Compile Include="Models\Dao\DCDCatalogoDocumento.cs" />
     <Compile Include="Models\Dao\DCDDocumentoDetalleDAO.cs" />
@@ -215,7 +219,6 @@
     <Compile Include="Models\Dao\DCMCatalogoDAO.cs" />
     <Compile Include="Models\Dao\DCMDocumentoDAO.cs" />
     <Compile Include="Models\Dao\DCMTipoDocumentoDAO.cs" />
-
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -333,11 +336,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-
-    <Folder Include="Models\Dao\" />
-
-    <Folder Include="Models\Entity\" />
-
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
